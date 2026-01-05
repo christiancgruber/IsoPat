@@ -1,8 +1,8 @@
 # IsoPat 3.0: A Python Package for Isotope Pattern Deconvolution in Mass Spectrometry
 
-[![PyPI version](https://badge.fury.io/py/isopat.svg)](https://badge.fury.io/py/isopat)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
+<a href="https://badge.fury.io/py/isopat" target="_blank"><img src="https://badge.fury.io/py/isopat.svg" alt="PyPI version"></a>
+<a href="https://opensource.org/licenses/MIT" target="_blank"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a>
+<a href="https://www.python.org/downloads/" target="_blank"><img src="https://img.shields.io/badge/python-3.9+-blue.svg" alt="Python 3.9+"></a>
 
 **Christian C. Gruber**<sup>1,2*</sup>, **Wolfgang Kroutil**<sup>3,4</sup>
 
@@ -137,7 +137,7 @@ If you use IsoPat in your research, please cite:
 
 ## Web Demo
 
-Try IsoPat online without installation: **[HuggingFace Space](https://huggingface.co/spaces/user5761/isopat)**
+Try IsoPat online without installation: **<a href="https://huggingface.co/spaces/user5761/isopat" target="_blank">HuggingFace Space</a>**
 
 ## Acknowledgements
 
