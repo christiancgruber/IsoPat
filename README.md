@@ -4,11 +4,14 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 
-**Christian C. Gruber**<sup>1,2</sup>, **Wolfgang Kroutil**<sup>3</sup>
+**Christian C. Gruber**<sup>1,2*</sup>, **Wolfgang Kroutil**<sup>3,4</sup>
 
 1. Innophore GmbH, Graz, Austria
 2. Institute of Molecular Bioscience, University of Graz, Austria
 3. Institute of Chemistry, University of Graz, Austria
+4. Field of Excellence BioHealth, BioTechMed Graz, NAWI Graz, University of Graz, Austria
+
+*Corresponding author: christian.gruber@innophore.com
 
 ## Abstract
 
@@ -136,11 +139,10 @@ If you use IsoPat in your research, please cite:
 
 Try IsoPat online without installation: **[HuggingFace Space](https://huggingface.co/spaces/user5761/isopat)**
 
+## Acknowledgements
+
+We acknowledge the original co-authors of the 2007 algorithm: Gustav Oberdorfer, Constance V. Voss, Jennifer M. Kremsner, and C. Oliver Kappe. The original work was supported by the Austrian Science Fund (FWF Project P18537-B03). The University of Graz and the Field of Excellence BioHealth of the University of Graz are acknowledged for financial support.
+
 ## License
 
 MIT License - see [LICENSE](LICENSE) for details.
-
-## Authors
-
-- **Christian C. Gruber** - Innophore / University of Graz
-- **Wolfgang Kroutil** - University of Graz
