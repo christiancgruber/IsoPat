@@ -43,13 +43,19 @@ result = deconvolve(unlabeled, analyte, n_labels=4)
 
 print(result)
 # IsotopePattern(d0=10.0%, d1=20.0%, d2=40.0%, d3=25.0%, d4=5.0%, l.r.=90.0%, R²=0.9998)
+
+# For ¹⁸O or tritium labeling (mass_shift=2)
+result_18O = deconvolve(unlabeled, analyte, n_labels=4, mass_shift=2)
 ```
 
 ## Command Line Interface
 
 ```bash
-# Single pattern deconvolution
+# Single pattern deconvolution (H/D exchange, default mass_shift=1)
 isopat deconvolve -u "100,8.88,0.37" -a "10,20,40,25,5,0.9,0.04" -n 4
+
+# For ¹⁸O or tritium labeling (mass_shift=2)
+isopat deconvolve -u "100,8.88,0.37" -a "10,20,40,25,5,0.9,0.04" -n 4 --mass-shift 2
 
 # Batch processing
 isopat batch -u reference.csv -a samples.csv -n 4 -o results.csv
